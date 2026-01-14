@@ -466,12 +466,12 @@ function setupSmoothScrolling() {
 // Team modal data
 const teamMembers = {
     sabuhi: {
-        name: 'Rauf Əliyev',
+        name: 'Səbuhi Məhəmmədzadə',
         position: {
-            az: 'Baş Maliyyə Direktoru',
-            en: 'Chief Financial Officer'
+            az: 'CEO',
+            en: 'CEO'
         },
-        image: 'rauf-aliyev.jpg',
+        image: 'sabuhi.jpg',
         education: {
             az: 'Bakı Dövlət Universiteti, Maliyyə fakültəsi. ACCA sertifikatı.',
             en: 'Baku State University, Faculty of Finance. ACCA certification.'
