@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Komandamız - SFS Summit Finance Solutions</title>
+  <meta name="description" content="SFS – SUMMIT FINANCE SOLUTIONS peşəkar komandası ilə tanış olun. Maliyyə, mühasibatlıq və audit sahələrində təcrübəli mütəxəssislərimiz.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+    <nav class="nav-container">
+    <div class="container">
+      <div class="nav-content">
+        <div class="nav-logo">
+          <span class="text-gradient">SFS</span>
+        </div>
+        
+        <div class="nav-links" id="navLinks">
+          <a href="index.html#home">Ana Səhifə</a>
+          <a href="index.html#about">Haqqımızda</a>
+          <a href="index.html#services">Xidmətlər</a>
+          <a href="team.html" class="active">Komandamız</a>
+          <a href="index.html#partners">Tərəfdaşlar</a>
+          <a href="index.html#contact">Əlaqə</a>
+        </div>
+
+        <div class="nav-actions">
+          <button class="lang-toggle" onclick="toggleLanguage()">
+            <span id="langText">EN</span>
+          </button>
+          <button class="mobile-menu-btn" onclick="toggleMobileMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Team Hero -->
+  <section class="team-hero">
+    <div class="container">
+      <div class="text-center animate-fade-in">
+        <h1 class="hero-title mb-6">
+          <span class="text-gradient translatable" data-key="team.page.title">Komandamız</span>
+        </h1>
+        <p class="hero-subtitle translatable" data-key="team.page.subtitle">
+          Peşəkar və təcrübəli komandamızla sizə xidmət etməyə hazırıq
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Members -->
+  <section class="team-section">
+    <div class="container">
+      <div class="team-grid">
+        <!-- Team Member 1 -->
+        <div class="team-card" onclick="openTeamModal('rauf')">
+          <div class="team-card-image">
+            <img src="rauf-aliyev.jpg" alt="Rauf Əliyev">
+            <div class="team-card-overlay">
+              <span class="view-details translatable" data-key="team.viewDetails">Ətraflı</span>
+            </div>
+          </div>
+          <div class="team-card-content">
+            <h3 class="team-member-name">Rauf Əliyev</h3>
+            <p class="team-member-position" id="position1">Baş Maliyyə Direktoru</p>
+            <p class="team-member-experience translatable" data-key="team.experience">15+ il təcrübə</p>
+          </div>
+        </div>
+
+        <!-- Team Member 2 -->
+        <div class="team-card" onclick="openTeamModal('aysel')">
+          <div class="team-card-image">
+            <div class="team-placeholder">
+              <span>AH</span>
+            </div>
+            <div class="team-card-overlay">
+              <span class="view-details translatable" data-key="team.viewDetails">Ətraflı</span>
+            </div>
+          </div>
+          <div class="team-card-content">
+            <h3 class="team-member-name">Aysel Həsənova</h3>
+            <p class="team-member-position" id="position2">Audit Şöbəsinin Rəhbəri</p>
+            <p class="team-member-experience translatable" data-key="team.experience">12+ il təcrübə</p>
+          </div>
+        </div>
+
+        <!-- Team Member 3 -->
+        <div class="team-card" onclick="openTeamModal('elvin')">
+          <div class="team-card-image">
+            <div class="team-placeholder">
+              <span>EM</span>
+            </div>
+            <div class="team-card-overlay">
+              <span class="view-details translatable" data-key="team.viewDetails">Ətraflı</span>
+            </div>
+          </div>
+          <div class="team-card-content">
+            <h3 class="team-member-name">Elvin Məmmədov</h3>
+            <p class="team-member-position" id="position3">Vergi Məsləhətçisi</p>
+            <p class="team-member-experience translatable" data-key="team.experience">10+ il təcrübə</p>
+          </div>
+        </div>
+
+        <!-- Team Member 4 -->
+        <div class="team-card" onclick="openTeamModal('nigar')">
+          <div class="team-card-image">
+            <div class="team-placeholder">
+              <span>NQ</span>
+            </div>
+            <div class="team-card-overlay">
+              <span class="view-details translatable" data-key="team.viewDetails">Ətraflı</span>
+            </div>
+          </div>
+          <div class="team-card-content">
+            <h3 class="team-member-name">Nigar Quliyeva</h3>
+            <p class="team-member-position" id="position4">İT Şöbəsinin Rəhbəri</p>
+            <p class="team-member-experience translatable" data-key="team.experience">8+ il təcrübə</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Team Modal -->
+  <div class="modal" id="teamModal">
+    <div class="modal-overlay" onclick="closeTeamModal()"></div>
+    <div class="modal-content">
+      <button class="modal-close" onclick="closeTeamModal()">×</button>
+      <div class="modal-body">
+        <div class="modal-image">
+          <img id="modalImage" src="" alt="">
+        </div>
+        <div class="modal-info">
+          <h2 id="modalName" class="text-gradient"></h2>
+          <p id="modalPosition" class="modal-position"></p>
+          <div class="modal-details">
+            <h3 id="modalEducationTitle">Təhsil</h3>
+            <p id="modalEducation"></p>
+            
+            <h3 id="modalExperienceTitle">Təcrübə</h3>
+            <p id="modalExperienceText"></p>
+            
+            <h3 id="modalExpertiseTitle">İxtisas sahələri</h3>
+            <ul id="modalExpertise"></ul>
+            
+            <h3 id="modalCertificatesTitle">Sertifikatlar</h3>
+            <p id="modalCertificates"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-column">
+          <h3 class="footer-title">SFS</h3>
+          <p class="footer-text" id="footerDescription">
+            Maliyyə, mühasibatlıq və audit sahələrində peşəkar xidmətlər təqdim edən aparıcı konsaltinq şirkəti.
+          </p>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-heading translatable" data-key="nav.team">Komandamız</h4>
+          <ul class="footer-links">
+            <li><a href="index.html#home" id="footerHome">Ana Səhifə</a></li>
+            <li><a href="index.html#about" id="footerAbout">Haqqımızda</a></li>
+            <li><a href="index.html#services" id="footerServices">Xidmətlər</a></li>
+            <li><a href="team.html" id="footerTeam">Komandamız</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-heading" id="footerMainServices">Əsas Xidmətlər</h4>
+          <ul class="footer-links">
+            <li id="footerService1">Mühasibatlıq xidmətləri</li>
+            <li id="footerService2">Vergi xidməti</li>
+            <li id="footerService3">Audit xidməti</li>
+            <li id="footerService4">Maliyyə xidməti</li>
+          </ul>
+        </div>
+
+        <div class="footer-column">
+          <h4 class="footer-heading" id="footerContact">Əlaqə</h4>
+          <ul class="footer-contact">
+            <li>📧 info@sfs.az</li>
+            <li>📞 +994 50 200 62 06</li>
+            <li>📍 Bakı, Neftçilər prospekti 153А, Port Baku Tower</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p id="footerCopyright">© 2024 SFS - Summit Finance Solutions. Bütün hüquqlar qorunur.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

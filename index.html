@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SFS – Summit Finance Solutions | Maliyyə Konsaltinq Xidmətləri</title>
+    <meta name="description" content="SFS – Summit Finance Solutions maliyyə sahəsində peşəkar konsaltinq xidmətləri təqdim edir. Mühasibatlıq, vergi, audit və maliyyə təhlili xidmətləri.">
+    <meta name="author" content="SFS Solutions">
+    <meta name="keywords" content="maliyyə, mühasibatlıq, vergi, audit, konsaltinq, Azərbaycan, Bakı">
+    
+    <meta property="og:title" content="SFS – Summit Finance Solutions">
+    <meta property="og:description" content="Maliyyə sahəsində peşəkar konsaltinq xidmətləri">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@lovable_dev">
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png">
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex-shrink-0">
+                    <img src="logo.png" 
+         alt="SFS Logo" 
+         class="h-16 w-auto object-contain">
+                </div>
+                
+                <div class="hidden md:block">
+                    <div class="ml-10 flex items-baseline space-x-8">
+                        <a href="#hero" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.home">Ana səhifə</a>
+                        <a href="#about" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.about">Haqqımızda</a>
+                        <a href="#services" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.services">Xidmətlər</a>
+                        <a href="team.html" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.team">Komandamız</a>
+                        <a href="#partners" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.partners">Tərəfdaşlar</a>
+                        <a href="#contact" class="text-foreground hover:text-primary transition-colors duration-300 font-medium nav-link" data-key="nav.contact">Əlaqə</a>
+                    </div>
+                </div>
+                
+                <div class="flex items-center space-x-4">
+                    <button id="language-toggle" class="glass-button border-glass-border hover:border-primary px-3 py-2 rounded-md flex items-center space-x-2">
+                        <i data-lucide="globe" class="w-4 h-4"></i>
+                        <span id="current-lang">AZ</span>
+                    </button>
+                    
+                    <div class="md:hidden">
+                        <button id="mobile-menu-toggle" class="glass-button border-glass-border hover:border-primary p-2 rounded-md">
+                            <i data-lucide="menu" class="w-5 h-5"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="mobile-menu" class="md:hidden glass-card mt-2 p-4 hidden">
+                <div class="px-2 pt-2 pb-3 space-y-1">
+                    <a href="#hero" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.home">Ana səhifə</a>
+                    <a href="#about" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.about">Haqqımızda</a>
+                    <a href="#services" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.services">Xidmətlər</a>
+                    <a href="team.html" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.team">Komandamız</a>
+                    <a href="#partners" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.partners">Tərəfdaşlar</a>
+                    <a href="#contact" class="text-foreground hover:text-primary block px-3 py-2 rounded-md text-base font-medium transition-colors duration-300 nav-link" data-key="nav.contact">Əlaqə</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="relative min-h-screen flex items-center justify-center overflow-hidden">
+        <div class="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-70" style="background-image: url('finance-hero-bg.jpg')"></div>
+        <div class="absolute inset-0 bg-gradient-hero opacity-30"></div>
+        
+        <div class="absolute top-20 left-10 w-20 h-20 rounded-full bg-primary/20 animate-float"></div>
+        <div class="absolute top-40 right-20 w-16 h-16 rounded-full bg-secondary/20 animate-float" style="animation-delay: 2s"></div>
+        <div class="absolute bottom-40 left-1/4 w-12 h-12 rounded-full bg-primary-light/20 animate-float" style="animation-delay: 4s"></div>
+        
+        <div class="relative z-10 text-center max-w-4xl mx-auto px-4">
+            <div class="glass-card p-8 md:p-12 animate-glow">
+                <h1 class="text-4xl md:text-6xl font-bold mb-6">
+                    <span class="text-gradient translatable" data-key="hero.title">Maliyyə Məsləhətçiniz</span>
+                </h1>
+                
+                <p class="text-xl md:text-2xl text-muted-foreground mb-4 font-medium translatable" data-key="hero.subtitle">
+                    SFS – Summit Finance Solutions
+                </p>
+                
+                <p class="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto leading-relaxed translatable" data-key="hero.description">
+                    Maliyyə sahəsində peşəkar konsaltinq xidmətləri təqdim edən etibarlı tərəfdaşınız. Mühasibatlıq, audit, vergi və İT xidmətləri ilə biznesinizi irəli aparırıq.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <button class="glass-button group px-8 py-3 text-lg font-semibold bg-primary text-primary-foreground hover:bg-primary/90">
+                        <span class="translatable" data-key="hero.cta">Bizimlə əlaqə</span>
+                        <i data-lucide="arrow-right" class="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform"></i>
+                    </button>
+                    
+                    <button class="glass-button border-glass-border hover:border-primary px-8 py-3 text-lg">
+                        <span class="translatable" data-key="hero.learn">Daha çox</span>
+                    </button>
+                </div>
+            </div>
+            <br>
+            <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+                <i data-lucide="chevron-down" class="w-8 h-8 text-primary"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 text-gradient translatable" data-key="about.title">Haqqımızda</h2>
+                <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed translatable" data-key="about.description">
+                    SFS – Summit Finance Solutions olaraq, maliyyə sahəsində ən yüksək standartlarda xidmət göstərən peşəkar komandayıq.
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="space-y-6">
+                    <div class="glass-card p-6">
+                        <div class="flex items-center mb-4">
+                            <i data-lucide="target" class="w-8 h-8 text-primary mr-3"></i>
+                            <h3 class="text-xl font-semibold translatable" data-key="about.mission.title">Missiyamız</h3>
+                        </div>
+                        <p class="text-muted-foreground leading-relaxed translatable" data-key="about.mission.description">
+                            Müasir maliyyə həlləri və innovativ yanaşmalarla müştərilərimizin uğuruna töhfə vermək.
+                        </p>
+                    </div>
+                    
+                    <div class="glass-card p-6">
+                        <div class="flex items-center mb-4">
+                            <i data-lucide="eye" class="w-8 h-8 text-primary mr-3"></i>
+                            <h3 class="text-xl font-semibold translatable" data-key="about.vision.title">Vizyonumuz</h3>
+                        </div>
+                        <p class="text-muted-foreground leading-relaxed translatable" data-key="about.vision.description">
+                            Azərbaycanda maliyyə konsaltinqi sahəsində aparıcı və etibarlı şirkət olmaq.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-6 text-center translatable" data-key="about.stats.title">Bizim Nəticələr</h3>
+                    <div class="grid grid-cols-2 gap-6">
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">50+</div>
+                            <div class="text-sm text-muted-foreground translatable" data-key="about.stats.clients">Müştəri</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">10+</div>
+                            <div class="text-sm text-muted-foreground translatable" data-key="about.stats.years">İl təcrübə</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">100%</div>
+                            <div class="text-sm text-muted-foreground translatable" data-key="about.stats.satisfaction">Məmnunluq</div>
+                        </div>
+                        <div class="text-center">
+                            <div class="text-3xl font-bold text-primary mb-2">Operativ</div>
+                            <div class="text-sm text-muted-foreground translatable" data-key="about.stats.support">Dəstək</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-20 px-4 bg-muted/20">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 text-gradient translatable" data-key="services.title">Xidmətlərimiz</h2>
+                <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed translatable" data-key="services.description">
+                    Maliyyə sahəsində geniş spektrli peşəkar xidmətlər təqdim edirik
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Service Cards will be generated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Partners Section -->
+    <section id="partners" class="py-20 px-4 bg-muted/20">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 text-gradient translatable" data-key="partners.title">Tərəfdaşlar</h2>
+                <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed translatable" data-key="partners.description">
+                    Etibarlı tərəfdaşlarımızla güclü əməkdaşlıq
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="glass-card p-6 text-center">
+                    <i data-lucide="building" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+                    <h3 class="font-semibold translatable" data-key="partners.gov">Dövlət Qurumları</h3>
+                </div>
+                
+                <div class="glass-card p-6 text-center">
+                    <i data-lucide="landmark" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+                    <h3 class="font-semibold translatable" data-key="partners.banks">Bank Sektoru</h3>
+                </div>
+                
+                <div class="glass-card p-6 text-center">
+                    <i data-lucide="briefcase" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+                    <h3 class="font-semibold translatable" data-key="partners.business">Biznes Sektoru</h3>
+                </div>
+                
+                <div class="glass-card p-6 text-center">
+                    <i data-lucide="graduation-cap" class="w-12 h-12 text-primary mx-auto mb-4"></i>
+                    <h3 class="font-semibold translatable" data-key="partners.education">Təhsil Müəssisələri</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-20 px-4">
+        <div class="container mx-auto">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-6 text-gradient translatable" data-key="contact.title">Əlaqə</h2>
+                <p class="text-xl text-muted-foreground max-w-3xl mx-auto leading-relaxed translatable" data-key="contact.description">
+                    Bizimlə əlaqə saxlayın və maliyyə məsələlərinizdə peşəkar dəstək alın
+                </p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-12">
+                <div class="glass-card p-8">
+                    <h3 class="text-2xl font-bold mb-6 translatable" data-key="contact.form.title">Mesaj göndərin</h3>
+                    <form id="contact-form" class="space-y-6">
+                        <div>
+                            <label class="block text-sm font-medium mb-2 translatable" data-key="contact.form.name">Ad Soyad</label>
+                            <input type="text" name="name" required class="w-full px-3 py-2 border border-glass-border rounded-md bg-background/50 focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2 translatable" data-key="contact.form.email">Email</label>
+                            <input type="email" name="email" required class="w-full px-3 py-2 border border-glass-border rounded-md bg-background/50 focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2 translatable" data-key="contact.form.subject">Mövzu</label>
+                            <input type="text" name="subject" required class="w-full px-3 py-2 border border-glass-border rounded-md bg-background/50 focus:ring-2 focus:ring-primary focus:border-transparent">
+                        </div>
+                        
+                        <div>
+                            <label class="block text-sm font-medium mb-2 translatable" data-key="contact.form.message">Mesaj</label>
+                            <textarea name="message" rows="4" required class="w-full px-3 py-2 border border-glass-border rounded-md bg-background/50 focus:ring-2 focus:ring-primary focus:border-transparent"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="w-full glass-button bg-primary text-primary-foreground hover:bg-primary/90 py-3">
+                            <span class="translatable" data-key="contact.form.submit">Göndər</span>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="space-y-8">
+                    <div class="glass-card p-6">
+                        <h3 class="text-xl font-semibold mb-4 translatable" data-key="contact.info.title">Əlaqə məlumatları</h3>
+                        <div class="space-y-4">
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="mail" class="w-5 h-5 text-primary"></i>
+                                <span>info@sfs.az</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="phone" class="w-5 h-5 text-primary"></i>
+                                <span>+994 50 200 62 06</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i data-lucide="map-pin" class="w-5 h-5 text-primary"></i>
+                                <span>Bakı, Neftçilər prospekti 153А, Port Baku Tower</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="glass-card p-6">
+                        <h3 class="text-xl font-semibold mb-4 translatable" data-key="contact.hours.title">İş saatları</h3>
+                        <div class="space-y-2 text-muted-foreground">
+                            <div class="flex justify-between">
+                                <span class="translatable" data-key="contact.hours.weekdays">Bazar ertəsi - Cümə</span>
+                                <span>09:00 - 18:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="translatable" data-key="contact.hours.saturday">Şənbə</span>
+                                <span>09:00 - 14:00</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="translatable" data-key="contact.hours.sunday">Bazar</span>
+                                <span class="translatable" data-key="contact.hours.closed">Bağlı</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-16 px-4 border-t border-glass-border">
+        <div class="container mx-auto">
+            <div class="grid md:grid-cols-3 gap-8">
+                <div>
+                    <h3 class="text-2xl font-bold text-gradient mb-4">
+                        SFS – SUMMIT FINANCE SOLUTIONS
+                    </h3>
+                    <p class="text-muted-foreground mb-6 leading-relaxed">
+                        Maliyyə sahəsində peşəkar konsaltinq xidmətləri təqdim edən etibarlı tərəfdaşınız.
+                    </p>
+                    
+                    <div class="space-y-3">
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="mail" class="w-5 h-5 text-primary"></i>
+                            <span class="text-muted-foreground">info@sfs.az</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="phone" class="w-5 h-5 text-primary"></i>
+                            <span class="text-muted-foreground">+994 50 200 62 06</span>
+                        </div>
+                        <div class="flex items-center space-x-3">
+                            <i data-lucide="map-pin" class="w-5 h-5 text-primary"></i>
+                            <span class="text-muted-foreground">Bakı, Neftçilər prospekti 153А, Port Baku Tower</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-foreground">
+                        Sürətli keçidlər
+                    </h4>
+                    <ul class="space-y-2">
+                        <li><a href="#hero" class="text-muted-foreground hover:text-primary transition-colors duration-300 translatable" data-key="nav.home">Ana səhifə</a></li>
+                        <li><a href="#about" class="text-muted-foreground hover:text-primary transition-colors duration-300 translatable" data-key="nav.about">Haqqımızda</a></li>
+                        <li><a href="#services" class="text-muted-foreground hover:text-primary transition-colors duration-300 translatable" data-key="nav.services">Xidmətlər</a></li>
+                        <li><a href="#contact" class="text-muted-foreground hover:text-primary transition-colors duration-300 translatable" data-key="nav.contact">Əlaqə</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="text-lg font-semibold mb-4 text-foreground">
+                        Əsas xidmətlər
+                    </h4>
+                    <ul class="space-y-2 text-muted-foreground">
+                        <li>Mühasibatlıq xidməti</li>
+                        <li>Vergi konsultasiyası</li>
+                        <li>Maliyyə təhlili</li>
+                        <li>Audit xidməti</li>
+                        <li>İT həlləri</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-glass-border mt-12 pt-8 text-center">
+                <p class="text-muted-foreground">
+                    © 2024 SFS – Summit Finance Solutions. <span class="translatable" data-key="footer.rights">Bütün hüquqlar qorunur.</span>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        lucide.createIcons();
+    </script>
+</body>
+</html>
