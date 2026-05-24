@@ -77,7 +77,7 @@ const translations = {
         'team.viewDetails': 'Ətraflı',
         
         // Services details
-        'services.accounting.title': 'Mühasibatlıq Xidmətləri',
+        'services.accounting.title': 'Mühasibatlıq və vergi',
         'services.accounting.items': [
             '- Şirkətin uçot siyasətinin qurulması və nəzarət olunması',
             '- Şirkətin dövriyyəsinin yığılması',
@@ -89,12 +89,16 @@ const translations = {
             '- Vergilərlə bağlı yarana biləcək risklərə nəzarət'
 
         ],
-        'services.tax.title': 'Vergi Xidməti',
+        'services.tax.title': 'Maliyyə nəzarəti',
         'services.tax.items': [
-            'Hesabatların tərtib olunmasına nəzarət',
-            'Dövlət orqanlarından gələn sualların cavablandırılması',
-            'Vergi xərclərinin optimallaşdırılması',
-            'Vergilərlə bağlı yarana biləcək risklərə nəzarət'
+            '- İFRS standartları və yerli qanunvericiliyə uyğun hesabatların tərtib olunması (Balans,Mənfəət və Zərər,Pul vəsaitlərinin hərəkəti,Plan-Faktiki analizi)',
+            '- Şirkətin maliyyə fəaliyyətinin təhlili və nəzarət',
+            '- Xərclərin optimallaşdırılması',
+            '- Aylıq maliyyə arayışlarının verilməsi',
+            '- Analitik hesabatların tərtib olunması',
+            '- İstəyə uyğun idarəetmə uçotunun hazırlanması',
+            '- Proqnoz hesabatların tərtib olunması',
+            '- İllik büdcə hesabatlarının hazırlanması'
         ],
         'services.finance.title': 'Maliyyə Xidməti',
         'services.finance.items': [
