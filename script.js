@@ -109,29 +109,23 @@ const translations = {
             '- Daxili nəzarət prosedurlarının hazırlanması',
             '- Dövlət orqanlarına audit rəyinin verilməsi'
         ],
-        'services.it.title': 'HR Xidməti',
-        'services.it.items': [
+        'services.hr.title': 'HR Xidməti',
+        'services.hr.items': [
             '- İşçilərin qeydiyyata götürülməsi',
             '- İşçilərə vəzifə təlimatlarının yazılması',
             '- İş yükünün müəyyən olunması',
             '- Aylıq əmək haqlarının hesablanması',
             '- Ümumi hr xidməti (məzuniyyət,xəstəlik və.s)'
         ],
-        'services.hr.title': 'İT Xidməti',
-        'services.hr.items': [
-            'İşçilərin qeydiyyata götürülməsi',
-            'İşçilərə vəzifə təlimatlarının yazılması',
-            'İş yükünün müəyyən olunması',
-            'Aylıq əmək haqlarının hesablanması',
-            'Ümumi HR xidməti'
+        'services.it.title': 'İT Xidməti',
+        'services.it.items': [
+            '- Şirkətin ERP sisteminin qurulması',
+            '- Serverin qurulması nə nəzarəti',
+            '- İT təhlükəsizliyi (məlumatların qorunmasının təminatı) ',
+            '- Şirkətin elektron resurslarının istifadəsinə nəzarət',
+            '- Proseslərin avtomatlaşdırılması (JIRA) ',
+            '- Hesabatlılığın avtomatlaşdırılması'
         ],
-        'services.supply.title': 'Təchizat Zəncirinin İdarə Olunması',
-        'services.supply.items': [
-            'İllik alış büdcəsinin hazırlanması',
-            'Tenderlərin keçirilməsi',
-            'Alış limitlərinin müəyyən olunması',
-            'Bazar araşdırılması və optimal qiymətin tapılması'
-        ]
     },
     en: {
         // Navigation
