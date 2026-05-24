@@ -473,7 +473,7 @@ const teamMembers = {
             en: ['Financial planning', 'Budget management', 'IFRS standards', 'Corporate governance', 'Risk management']
         },
         certificates: {
-            az: 'ACCA, CPA, İçəri Auditor sertifikatları',
+            az: 'ACCA, CPA, DipİFR, Auditor lisenziyası',
             en: 'ACCA, CPA, Internal Auditor certifications'
         }
     },
