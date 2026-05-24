@@ -22,7 +22,7 @@ const translations = {
         'about.mission.title': 'Missiyamız',
         'about.mission.description': 'Müasir maliyyə həlləri və innovativ yanaşmalarla müştərilərimizin uğuruna töhfə vermək.',
         'about.vision.title': 'Vizyonumuz',
-        'about.vision.description': 'Azərbaycanda maliyyə konsaltinqi sahəsində aparıcı və etibarlı şirkət olmaq.',
+        'about.vision.description': 'Vizyonumuz göstərdiyimiz xidmətlə nəinki Azərbaycan,eləcə də dünyanın bir sıra ölkələrindən fəaliyyət göstərərək aparıcı şirkətlərdən biri olmaqdır. Bunun üçün bir sıra xarici şirkətlərlə müqavilələrə bağlayıb onlara maliyyə sahəsində xidmətlər göstəririk. Şirkət yarandığı tarixdən bu günə kimi bir sıra ölkələrdə yerləşən şirkətlərə maliyyə xidməti göstərmişdir. Bu ölkələrə Qətər,BƏƏ (Dubai),İngiltərə,Almaniya,Amerika aiddir.',
         'about.stats.title': 'Bizim Nəticələr',
         'about.stats.clients': 'Müştəri',
         'about.stats.years': 'İl təcrübə',
