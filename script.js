@@ -100,21 +100,6 @@ const translations = {
             '- Proqnoz hesabatların tərtib olunması',
             '- İllik büdcə hesabatlarının hazırlanması'
         ],
-        'services.finance.title': 'Maliyyə Xidməti',
-        'services.finance.items': [
-            'İFRS standartları və yerli qanunvericiliyə uyğun hesabatların tərtib olunması',
-            'Şirkətin maliyyə fəaliyyətinin təhlili və nəzarət',
-            'Xərclərin optimallaşdırılması',
-            'Aylıq maliyyə arayışlarının verilməsi',
-            'Analitik hesabatların tərtib olunması'
-        ],
-        'services.warehouse.title': 'Anbar Xidməti',
-        'services.warehouse.items': [
-            'Anbar ERP sisteminin qurulması (WMS)',
-            'Anbar topologiyasının hazırlanması',
-            'Barkod və QR kodlarla nişanlanması',
-            'TSD terminallarla malların yığılması və yoxlanılması'
-        ],
         'services.audit.title': 'Audit Xidməti',
         'services.audit.items': [
             '- Maliyyə auditinin aparılması (istəyə uyğun dövrlük)',
@@ -124,7 +109,7 @@ const translations = {
             '- Daxili nəzarət prosedurlarının hazırlanması',
             '- Dövlət orqanlarına audit rəyinin verilməsi'
         ],
-        'services.it.title': 'İT Xidməti',
+        'services.it.title': 'HR Xidməti',
         'services.it.items': [
             'Şirkətin ERP sisteminin qurulması',
             'Serverin qurulması və nəzarəti',
@@ -132,7 +117,7 @@ const translations = {
             'Proseslərin avtomatlaşdırılması',
             'Hesabatlılığın avtomatlaşdırılması'
         ],
-        'services.hr.title': 'HR Xidməti',
+        'services.hr.title': 'İT Xidməti',
         'services.hr.items': [
             'İşçilərin qeydiyyata götürülməsi',
             'İşçilərə vəzifə təlimatlarının yazılması',
