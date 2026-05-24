@@ -18,8 +18,7 @@ const translations = {
         
         // About section
         'about.title': 'Haqqımızda',
-        'about.description': 'Maliyyə, Mühasibatlıq və Audit sahəsində peşəkar xidmət göstərən konsalting şirkəti olaraq fəaliyyətdəyik. SUMMİT FİNANCE SOLUTİONS MMC 04.04.2025 tarixində yaradılmışdır. 
-            Yarandığı tarixdən bu günə qədər bir sıra böyük dövriyyəli şirkətlərə xidmət göstərmiş və xərclərin optimizasiyası, vergi riskləri və maliyyə riskləri barədə rəhbərliklərə öz tövhəsini vermişdir.',
+        'about.description': 'Maliyyə, Mühasibatlıq və Audit sahəsində peşəkar xidmət göstərən konsalting şirkəti olaraq fəaliyyətdəyik. SUMMİT FİNANCE SOLUTİONS MMC 04.04.2025 tarixində yaradılmışdır. Yarandığı tarixdən bu günə qədər bir sıra böyük dövriyyəli şirkətlərə xidmət göstərmiş və xərclərin optimizasiyası, vergi riskləri və maliyyə riskləri barədə rəhbərliklərə öz tövhəsini vermişdir.',
         'about.mission.title': 'Missiyamız',
         'about.mission.description': 'Müasir maliyyə həlləri və innovativ yanaşmalarla müştərilərimizin uğuruna töhfə vermək.',
         'about.vision.title': 'Vizyonumuz',
