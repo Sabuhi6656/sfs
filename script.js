@@ -73,7 +73,7 @@ const translations = {
         
         // Team page
         'team.page.title': 'Komandamız',
-        'team.page.subtitle': 'Peşəkar və təcrübəli komandamızla sizə xidmət etməyə hazırıq',
+        'team.page.subtitle': 'Öz işini yüksək peşəkarlıqla icra edən komandamız ümumilikdə 20 nəfərdən ibarətdir. Eyni zamanda işlərin həcmindən asılı olaraq əlavə birgə tərəfdaşlıq etdiyimiz şirkətlərdən də dəstək alırıq.',
         'team.viewDetails': 'Ətraflı',
         
         // Services details
