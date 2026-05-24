@@ -111,11 +111,11 @@ const translations = {
         ],
         'services.it.title': 'HR Xidməti',
         'services.it.items': [
-            'Şirkətin ERP sisteminin qurulması',
-            'Serverin qurulması və nəzarəti',
-            'İT təhlükəsizliyi',
-            'Proseslərin avtomatlaşdırılması',
-            'Hesabatlılığın avtomatlaşdırılması'
+            '- İşçilərin qeydiyyata götürülməsi',
+            '- İşçilərə vəzifə təlimatlarının yazılması',
+            '- İş yükünün müəyyən olunması',
+            '- Aylıq əmək haqlarının hesablanması',
+            '- Ümumi hr xidməti (məzuniyyət,xəstəlik və.s)'
         ],
         'services.hr.title': 'İT Xidməti',
         'services.hr.items': [
