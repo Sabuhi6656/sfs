@@ -117,11 +117,12 @@ const translations = {
         ],
         'services.audit.title': 'Audit Xidməti',
         'services.audit.items': [
-            'Maliyyə auditinin aparılması',
-            'Əməliyyat auditinin aparılması',
-            'Daxili audit yoxlamaların təşkili',
-            'Audit rəylərinin tərtibi və rəhbərliyə təqdim olunması',
-            'Dövlət orqanlarına audit rəyinin verilməsi'
+            '- Maliyyə auditinin aparılması (istəyə uyğun dövrlük)',
+            '- Əməliyyat auditinin aparılması',
+            '- Daxili audit yoxlamaların təşkili',
+            '- Audit rəylərinin tərtibi və rəhbərliyə təqdim olunması',
+            '- Daxili nəzarət prosedurlarının hazırlanması',
+            '- Dövlət orqanlarına audit rəyinin verilməsi'
         ],
         'services.it.title': 'İT Xidməti',
         'services.it.items': [
