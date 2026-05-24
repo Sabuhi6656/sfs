@@ -79,11 +79,15 @@ const translations = {
         // Services details
         'services.accounting.title': 'Mühasibatlıq Xidmətləri',
         'services.accounting.items': [
-            'Şirkətin uçot siyasətinin qurulması və idarə olunması',
-            'Şirkətin rəsmi dövriyyəsinin hazırlanması',
-            'Dövlət orqanlarına hesabatların verilməsi',
-            'Gəlir və xərc maddələrinin düzgün hesablarda əks olunmasına nəzarət',
-            'Ay bağlanmasına nəzarət'
+            '- Şirkətin uçot siyasətinin qurulması və nəzarət olunması',
+            '- Şirkətin dövriyyəsinin yığılması',
+            '- Gəlir və xərc maddələrinin düzgün hesabatlarda əks etdirilməsi',
+            '- Ay bağlanmasına nəzarət',
+            '- Dövlət orqanlarına hesabatların verilməsi (ƏDV, MƏNFƏƏT, GƏLİR, SV, ƏMLAK və.s)',
+            '- Dövlət orqanlarından gələn sualların cavablandırılması',
+            '- Vergilərlə bağlı xərclərin optimallaşdırılması',
+            '- Vergilərlə bağlı yarana biləcək risklərə nəzarət'
+
         ],
         'services.tax.title': 'Vergi Xidməti',
         'services.tax.items': [
