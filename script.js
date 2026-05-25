@@ -219,21 +219,6 @@ const translations = {
             'Optimization of tax expenses',
             'Control of tax-related risks'
         ],
-        'services.finance.title': 'Financial Services',
-        'services.finance.items': [
-            'Preparation of reports in accordance with IFRS standards and local legislation',
-            'Analysis and control of company\'s financial activities',
-            'Cost optimization',
-            'Monthly financial reporting',
-            'Preparation of analytical reports'
-        ],
-        'services.warehouse.title': 'Warehouse Services',
-        'services.warehouse.items': [
-            'Warehouse ERP system setup (WMS)',
-            'Warehouse topology preparation',
-            'Barcode and QR code marking',
-            'Goods collection and inspection with TSD terminals'
-        ],
         'services.audit.title': 'Audit Services',
         'services.audit.items': [
             'Conducting financial audits',
@@ -258,14 +243,7 @@ const translations = {
             'Monthly salary calculation',
             'General HR service'
         ],
-        'services.supply.title': 'Supply Chain Management',
-        'services.supply.items': [
-            'Annual procurement budget preparation',
-            'Conducting tenders',
-            'Determining purchase limits',
-            'Market research and finding optimal prices'
-        ]
-    }
+        }
 };
 
 // Current language
