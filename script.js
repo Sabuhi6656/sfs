@@ -262,16 +262,6 @@ const servicesData = [
         itemsKey: 'services.tax.items'
     },
     {
-        icon: 'trending-up',
-        titleKey: 'services.finance.title',
-        itemsKey: 'services.finance.items'
-    },
-    {
-        icon: 'package',
-        titleKey: 'services.warehouse.title',
-        itemsKey: 'services.warehouse.items'
-    },
-    {
         icon: 'search',
         titleKey: 'services.audit.title',
         itemsKey: 'services.audit.items'
@@ -285,11 +275,6 @@ const servicesData = [
         icon: 'users',
         titleKey: 'services.hr.title',
         itemsKey: 'services.hr.items'
-    },
-    {
-        icon: 'truck',
-        titleKey: 'services.supply.title',
-        itemsKey: 'services.supply.items'
     }
 ];
 
