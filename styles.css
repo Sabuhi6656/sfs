@@ -545,6 +545,11 @@ input::placeholder, textarea::placeholder {
   object-fit: cover;
 }
 
+/* yalnız Səbuhi şəkli üçün */
+.team-card-image img[src="sabuhi.jpg"] {
+  object-position: center top;
+}
+
 .team-placeholder {
   width: 100%;
   height: 100%;
