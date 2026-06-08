@@ -424,8 +424,8 @@ const teamMembers = {
         },
         image: 'sabuhi.jpg',
         education: {
-            az: 'Bakı Dövlət Universiteti, Maliyyə fakültəsi. ACCA sertifikatı.',
-            en: 'Baku State University, Faculty of Finance. ACCA certification.'
+            az: 'Azərbaycan İqtisad Universiteti, Mühasibat uçotu və audit. ACCA, Dipİfr',
+            en: 'Azerbaijan University of Economics, Accounting and Auditing. ACCA, DipIfr'
         },
         experience: {
             az: 'Maliyyə və mühasibatlıq sahəsində 15+ il təcrübə. Aparıcı beynəlxalq və yerli şirkətlərdə rəhbər vəzifələrdə çalışmışdır.',
