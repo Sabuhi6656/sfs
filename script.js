@@ -419,8 +419,8 @@ const teamMembers = {
     sabuhi: {
         name: 'Səbuhi Məhəmmədzadə',
         position: {
-            az: 'CEO',
-            en: 'CEO'
+            az: 'CEO and Founder',
+            en: 'CEO and Founder'
         },
         image: 'sabuhi.jpg',
         education: {
@@ -436,8 +436,8 @@ const teamMembers = {
             en: ['Financial planning', 'Budget management', 'IFRS standards', 'Corporate governance', 'Risk management']
         },
         certificates: {
-            az: 'ACCA, CPA, DipİFR, Auditor lisenziyası',
-            en: 'ACCA, CPA, Internal Auditor certifications'
+            az: 'ACCA, DipİFR, Auditor lisenziyası',
+            en: 'ACCA, DipİFR, Auditor lisense'
         }
     },
     aysel: {
